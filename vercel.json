@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "rewrites": [
+    { "source": "/api/file/:token", "destination": "/api/file/[token]" },
+    { "source": "/api/status/:token", "destination": "/api/status/[token]" },
+    { "source": "/api/embed/:token", "destination": "/api/embed/[token]" }
+  ]
+}
